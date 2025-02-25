@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Code_Challenge_1
+namespace code_challenge_1
 {
     class Program
     {
@@ -20,7 +20,6 @@ namespace Code_Challenge_1
 
             total = number_1 + number_2;
             Console.WriteLine("The sum between " + number_1 + " and " + number_2 + " is: " + total);
-
 
         }
     }
