@@ -14,30 +14,32 @@ namespace class4
             Console.Write("Enter your name: ");
             var name = Console.ReadLine();
 
-            int? age = null;
             Console.Write("Enter your age: ");
-            age = Convert.ToInt32(Console.ReadLine());
+            int age = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter your salary: ");
             decimal salary = Convert.ToDecimal(Console.ReadLine());
 
-            var user = new { Name = name, Age = age };
+            decimal? discount = GetDiscount(salary);
+            var user = new { Name = name, Age = age, Discount = discount };
 
-            GetDiscount(salary);
+            if (user.Discount.HasValue){
+                Console.WriteLine($"The user {user.Name} has a discount of {user.Discount}");
+            }else{
+                Console.WriteLine($"The user {user.Name} has no discount");
+            }
         }
 
-        static void GetDiscount<T>(T salary) where T : struct
+        static decimal? GetDiscount<T>(T salary) where T : struct
         {
-            double threshold = 3000.0;
+            decimal threshold = 3000;
+            decimal salaryDecimal = Convert.ToDecimal(salary);
 
-            if (Convert.ToDouble(salary) < threshold)
+            if (salaryDecimal < threshold)
             {
-                Console.WriteLine($"The User has {double.Parse(salary.ToString() ?? "0") * 0.1} of discount");
+                return salaryDecimal * 0.1m;
             }
-            else
-            {
-                Console.WriteLine("The user doesn't have discount");
-            }
+            return null;
         }
     }
 }
