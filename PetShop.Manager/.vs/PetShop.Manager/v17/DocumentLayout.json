@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.webapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.webapi\\config\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\config\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FA2CEC3-8B03-4C9C-8186-0D868F7432B1}|PetShop.Manager.Domain\\PetShop.Manager.Domain.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.domain\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA2CEC3-8B03-4C9C-8186-0D868F7432B1}|PetShop.Manager.Domain\\PetShop.Manager.Domain.csproj|solutionrelative:petshop.manager.domain\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,56 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Petshop.Manager.WebApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:11:47.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\WeatherForecast.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\WeatherForecast.cs",
               "RelativeToolTip": "Petshop.Manager.WebApi\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T18:25:54.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Domain\\Services\\IOrderService.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Domain\\Services\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Domain\\Services\\IOrderService.cs",
-              "RelativeToolTip": "PetShop.Manager.Domain\\Services\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T18:06:22.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Config\\OrderService.cs",
-              "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Config\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Config\\OrderService.cs",
-              "RelativeToolTip": "Petshop.Manager.WebApi\\Config\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T18:05:22.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Petshop.Manager.WebApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:45:55.724Z",
               "EditorCaption": ""
             },
             {
@@ -90,7 +58,7 @@
               "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Program.cs",
               "RelativeToolTip": "Petshop.Manager.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T17:45:19.723Z",
               "EditorCaption": ""
