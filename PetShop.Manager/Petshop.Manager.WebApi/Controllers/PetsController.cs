@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Petshop.Manager.WebApi.Dto;
 
 
@@ -11,6 +12,7 @@ namespace Petshop.Manager.WebApi.Controllers
         public static Dictionary<string, PetDto> Pets { get; set; } = [];
 
         [HttpPost]
+        [Authorize(AuthenticationSchemes = $"Basic")]
         public IActionResult Post(PetDto pet)
         {
             Pets.Add(pet.Name, pet);

@@ -1,5 +1,7 @@
 using PetShop.Manager.Domain.Services;
 using Petshop.Manager.WebApi.Middlewares;
+using Microsoft.AspNetCore.Authentication;
+using Petshop.Manager.WebApi.Security;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<IPetServices, PetServices>();
 builder.Services.AddScoped<ICustomerService, CustomerServices>();
 builder.Services.AddTransient<IOrderService, OrderService>();
+
+builder.Services.AddAuthentication("Basic")
+    .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -25,6 +30,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseMiddleware<ExceptionHandlerMiddleware>();
