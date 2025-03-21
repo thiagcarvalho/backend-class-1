@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PetShop.Manager.Application.Contracts.Models.InputModels;
+using PetShop.Manager.Application.Contracts.Models.ViewModels;
 
 namespace PetShop.Manager.Application.Contracts.Interfaces
 {
     public interface IAuthenticationService
     {
+        UserViewModel? Authenticate(UserCredentialsInputModel userCredentials);
     }
 }

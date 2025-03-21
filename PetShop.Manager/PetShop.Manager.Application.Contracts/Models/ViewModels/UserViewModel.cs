@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PetShop.Manager.Application.Contracts.Models.ViewModels
+﻿namespace PetShop.Manager.Application.Contracts.Models.ViewModels
 {
     public class UserViewModel
     {
@@ -15,6 +9,6 @@ namespace PetShop.Manager.Application.Contracts.Models.ViewModels
         public required string Email { get; set; }
 
         public IEnumerable<RoleViewModel> Roles { get; set; } = [];
- 
+
     }
 }

@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PetShop.Manager.Application\PetShop.Manager.Application.csproj" />
     <ProjectReference Include="..\PetShop.Manager.Domain\PetShop.Manager.Domain.csproj" />
   </ItemGroup>
 
