@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A434B65-77B2-4A69-BEAB-F0B0A6605F8D}|PetShop.Manager.Application\\PetShop.Manager.Application.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.application\\queries\\security\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A434B65-77B2-4A69-BEAB-F0B0A6605F8D}|PetShop.Manager.Application\\PetShop.Manager.Application.csproj|solutionrelative:petshop.manager.application\\queries\\security\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.webapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{841A77DB-6A0C-4FA9-8151-3A1232647209}|PetShop.Manager.Application.Contracts\\PetShop.Manager.Application.Contracts.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.application.contracts\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{841A77DB-6A0C-4FA9-8151-3A1232647209}|PetShop.Manager.Application.Contracts\\PetShop.Manager.Application.Contracts.csproj|solutionrelative:petshop.manager.application.contracts\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{841A77DB-6A0C-4FA9-8151-3A1232647209}|PetShop.Manager.Application.Contracts\\PetShop.Manager.Application.Contracts.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.application.contracts\\models\\inputmodels\\usercredentialsinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{841A77DB-6A0C-4FA9-8151-3A1232647209}|PetShop.Manager.Application.Contracts\\PetShop.Manager.Application.Contracts.csproj|solutionrelative:petshop.manager.application.contracts\\models\\inputmodels\\usercredentialsinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F70AF06-189F-488C-96BB-41DD14942DFF}|PetShop.Manager.Persistence.Query\\PetShop.Manager.Persistence.Query.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.persistence.query\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F70AF06-189F-488C-96BB-41DD14942DFF}|PetShop.Manager.Persistence.Query\\PetShop.Manager.Persistence.Query.csproj|solutionrelative:petshop.manager.persistence.query\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.webapi\\security\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\security\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A434B65-77B2-4A69-BEAB-F0B0A6605F8D}|PetShop.Manager.Application\\PetShop.Manager.Application.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.application\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A434B65-77B2-4A69-BEAB-F0B0A6605F8D}|PetShop.Manager.Application\\PetShop.Manager.Application.csproj|solutionrelative:petshop.manager.application\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.webapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06682A1C-EEC8-44C8-B634-24A18E9AD730}|Petshop.Manager.WebApi\\Petshop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F70AF06-189F-488C-96BB-41DD14942DFF}|PetShop.Manager.Persistence.Query\\PetShop.Manager.Persistence.Query.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.persistence.query\\security\\rolequeryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F70AF06-189F-488C-96BB-41DD14942DFF}|PetShop.Manager.Persistence.Query\\PetShop.Manager.Persistence.Query.csproj|solutionrelative:petshop.manager.persistence.query\\security\\rolequeryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{841A77DB-6A0C-4FA9-8151-3A1232647209}|PetShop.Manager.Application.Contracts\\PetShop.Manager.Application.Contracts.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.application.contracts\\interfaces\\persistence\\irolequeryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{841A77DB-6A0C-4FA9-8151-3A1232647209}|PetShop.Manager.Application.Contracts\\PetShop.Manager.Application.Contracts.csproj|solutionrelative:petshop.manager.application.contracts\\interfaces\\persistence\\irolequeryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F70AF06-189F-488C-96BB-41DD14942DFF}|PetShop.Manager.Persistence.Query\\PetShop.Manager.Persistence.Query.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.persistence.query\\security\\userqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F70AF06-189F-488C-96BB-41DD14942DFF}|PetShop.Manager.Persistence.Query\\PetShop.Manager.Persistence.Query.csproj|solutionrelative:petshop.manager.persistence.query\\security\\userqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FA2CEC3-8B03-4C9C-8186-0D868F7432B1}|PetShop.Manager.Domain\\PetShop.Manager.Domain.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.domain\\models\\security\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA2CEC3-8B03-4C9C-8186-0D868F7432B1}|PetShop.Manager.Domain\\PetShop.Manager.Domain.csproj|solutionrelative:petshop.manager.domain\\models\\security\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{841A77DB-6A0C-4FA9-8151-3A1232647209}|PetShop.Manager.Application.Contracts\\PetShop.Manager.Application.Contracts.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.application.contracts\\models\\inputmodels\\usercredentialsinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{841A77DB-6A0C-4FA9-8151-3A1232647209}|PetShop.Manager.Application.Contracts\\PetShop.Manager.Application.Contracts.csproj|solutionrelative:petshop.manager.application.contracts\\models\\inputmodels\\usercredentialsinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,128 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserCredentialsInputModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application.Contracts\\Models\\InputModels\\UserCredentialsInputModel.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Application.Contracts\\Models\\InputModels\\UserCredentialsInputModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application.Contracts\\Models\\InputModels\\UserCredentialsInputModel.cs",
-              "RelativeToolTip": "PetShop.Manager.Application.Contracts\\Models\\InputModels\\UserCredentialsInputModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:32:19.171Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application.Contracts\\Interfaces\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Application.Contracts\\Interfaces\\IAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application.Contracts\\Interfaces\\IAuthenticationService.cs",
-              "RelativeToolTip": "PetShop.Manager.Application.Contracts\\Interfaces\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABPAAAAAAAAAA==",
+              "Title": "BasicAuthenticationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Security\\BasicAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Security\\BasicAuthenticationHandler.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Security\\BasicAuthenticationHandler.cs",
+              "RelativeToolTip": "Petshop.Manager.WebApi\\Security\\BasicAuthenticationHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:30:34.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application\\Queries\\Security\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Application\\Queries\\Security\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application\\Queries\\Security\\AuthenticationService.cs",
-              "RelativeToolTip": "PetShop.Manager.Application\\Queries\\Security\\AuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:28:28.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T20:27:01.381Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Persistence.Query\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Persistence.Query\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Persistence.Query\\MappingProfile.cs",
-              "RelativeToolTip": "PetShop.Manager.Persistence.Query\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABMAAAAAAAAAA==",
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Petshop.Manager.WebApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:25:37.654Z"
+              "WhenOpened": "2025-03-21T20:14:09.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application\\Config.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Application\\Config.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application\\Config.cs",
-              "RelativeToolTip": "PetShop.Manager.Application\\Config.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:19:12.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Program.cs",
               "RelativeToolTip": "Petshop.Manager.WebApi\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:15:54.687Z"
+              "WhenOpened": "2025-03-21T20:14:02.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoleQueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Persistence.Query\\Security\\RoleQueryRepository.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Persistence.Query\\Security\\RoleQueryRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Persistence.Query\\Security\\RoleQueryRepository.cs",
-              "RelativeToolTip": "PetShop.Manager.Persistence.Query\\Security\\RoleQueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\Petshop.Manager.WebApi\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Petshop.Manager.WebApi\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:10:46.734Z"
+              "WhenOpened": "2025-03-21T20:05:32.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRoleQueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application.Contracts\\Interfaces\\Persistence\\IRoleQueryRepository.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Application.Contracts\\Interfaces\\Persistence\\IRoleQueryRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application.Contracts\\Interfaces\\Persistence\\IRoleQueryRepository.cs",
-              "RelativeToolTip": "PetShop.Manager.Application.Contracts\\Interfaces\\Persistence\\IRoleQueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UserCredentialsInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application.Contracts\\Models\\InputModels\\UserCredentialsInputModel.cs",
+              "RelativeDocumentMoniker": "PetShop.Manager.Application.Contracts\\Models\\InputModels\\UserCredentialsInputModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application.Contracts\\Models\\InputModels\\UserCredentialsInputModel.cs",
+              "RelativeToolTip": "PetShop.Manager.Application.Contracts\\Models\\InputModels\\UserCredentialsInputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:11:34.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserQueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Persistence.Query\\Security\\UserQueryRepository.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Persistence.Query\\Security\\UserQueryRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Persistence.Query\\Security\\UserQueryRepository.cs",
-              "RelativeToolTip": "PetShop.Manager.Persistence.Query\\Security\\UserQueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T19:44:15.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Domain\\Models\\Security\\Role.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Domain\\Models\\Security\\Role.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Domain\\Models\\Security\\Role.cs",
-              "RelativeToolTip": "PetShop.Manager.Domain\\Models\\Security\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T19:39:09.584Z"
+              "WhenOpened": "2025-03-20T20:32:19.171Z"
             }
           ]
         }
