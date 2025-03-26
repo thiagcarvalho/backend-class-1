@@ -33,23 +33,23 @@ namespace PetShop.Manager.Persistence.Command.Store
             customer.Email = email;
 
             // Notify/validate the new email
-            try
-            {
-                using SmtpClient smtpClient = new();
-                smtpClient.Host = "localhost";
-                smtpClient.Credentials = new NetworkCredential("admin", "123456");
-                smtpClient.Send(
-                    new MailMessage(
-                        from: new MailAddress("no-reply@petshopmanager.com"),
-                        to: new MailAddress(customer.Email))
-                    {
-                        Body = "Your email was changed, please click <here> to validate this change.",
-                    });
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-            }
+            //try
+            //{
+            //    using SmtpClient smtpClient = new();
+            //    smtpClient.Host = "localhost";
+            //    smtpClient.Credentials = new NetworkCredential("admin", "123456");
+            //    smtpClient.Send(
+            //        new MailMessage(
+            //            from: new MailAddress("no-reply@petshopmanager.com"),
+            //            to: new MailAddress(customer.Email))
+            //        {
+            //            Body = "Your email was changed, please click <here> to validate this change.",
+            //        });
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex);
+            //}
         }
 
         public void Save(CustomerInputModel inputModel)
