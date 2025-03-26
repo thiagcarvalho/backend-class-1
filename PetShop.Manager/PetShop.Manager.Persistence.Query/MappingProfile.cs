@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using PetShop.Manager.Application.Contracts.Models.ViewModels;
+using PetShop.Manager.Application.Contracts.Models.ViewModels.Security;
 using PetShop.Manager.Persistence.DataModels.Security;
 
 namespace PetShop.Manager.Persistence.Query

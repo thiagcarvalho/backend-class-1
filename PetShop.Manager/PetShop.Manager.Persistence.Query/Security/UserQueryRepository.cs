@@ -1,12 +1,7 @@
 ﻿using AutoMapper;
-using PetShop.Manager.Application.Contracts.Interfaces.Persistence;
-using PetShop.Manager.Application.Contracts.Models.ViewModels;
+using PetShop.Manager.Application.Contracts.Interfaces.Persistence.Queries.Security;
+using PetShop.Manager.Application.Contracts.Models.ViewModels.Security;
 using PetShop.Manager.Persistence.DataModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PetShop.Manager.Persistence.Query.Security
 {
@@ -18,9 +13,12 @@ namespace PetShop.Manager.Persistence.Query.Security
         {
             _mapper = mapper;
         }
+
         public UserViewModel? GetByCredentials(string email, string password)
         {
-            var user = MemoryStorage.Users.Where(x =>
+            var user = MemoryStorage
+                            .Users
+                            .Where(x =>
                                 x.Value.Email.ToLower().Equals(email.ToLower())
                                 && x.Value.Password.Equals(password))
                             .FirstOrDefault()
@@ -33,6 +31,5 @@ namespace PetShop.Manager.Persistence.Query.Security
 
             return _mapper.Map<UserViewModel>(user);
         }
-
     }
 }

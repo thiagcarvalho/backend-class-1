@@ -1,6 +1,92 @@
-@Petshop.Manager.WebApi_HostAddress = http://localhost:5204
+@HostAddress = https://localhost:7227
 
-GET {{Petshop.Manager.WebApi_HostAddress}}/weatherforecast/
-Accept: application/json
+# basic
+@BasicAuthHeaderAdmin = YWRtaW5AZXhhbXBsZS5jb206QWRtaW4h
+@BasicAuthHeaderPublic = dXNlcm9uZUBleGFtcGxlLmNvbTpVc2Vyb25lIQ==
+
+# JWT self-issued
+@JwtAuthHeaderAdmin = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzQyNjA0OTYwLCJleHAiOjE3NDI2MDg1NjAsImlhdCI6MTc0MjYwNDk2MCwiaXNzIjoicGV0c2hvcG1hbmFnZXIuY29tIiwiYXVkIjoicHVibGljIn0.OyPf5ZFrO1s11dW_2AlX_DQ-pwFCogHBV_FbsIf9fbo
+@JwtAuthHeaderPublic = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXJvbmVAZXhhbXBsZS5jb20iLCJyb2xlIjoiUHVibGljIiwibmJmIjoxNzQyNjA1MDIwLCJleHAiOjE3NDI2MDg2MjAsImlhdCI6MTc0MjYwNTAyMCwiaXNzIjoicGV0c2hvcG1hbmFnZXIuY29tIiwiYXVkIjoicHVibGljIn0.67OvhcmoJzH2qvV75D2m5tiyHgz8b5j4lMH2SkjwS4Y
+
+# JWT Keycloak
+@JwtKeycloakAuthHeaderPublic = eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJKQmN0RURULUVxMmVfNzVWUW1FWUFyTHdjWUFFN1ZuSldmMHJEYUVhb0E4In0.eyJleHAiOjE3NDI2MTc2MzIsImlhdCI6MTc0MjYxNzMzMiwiYXV0aF90aW1lIjoxNzQyNjE3MzI5LCJqdGkiOiI2ODUzMDdhMS1iOTRmLTQyZTktOWZjYi0zNjkzZjllNDJhMTMiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL3BldHNob3AtbWFuYWdlciIsImF1ZCI6InBldHNob3AtbWFuYWdlci1jbGllbnQiLCJzdWIiOiI5NWUyMjQwZS1kNDFjLTQ1OTAtOGU5OC0wOGY0ZTMxODJjNzgiLCJ0eXAiOiJJRCIsImF6cCI6InBldHNob3AtbWFuYWdlci1jbGllbnQiLCJzaWQiOiIwMDMwMjI2NS1hZGM1LTQyZDQtODc2NS01OGQ1ZGYyOTM2M2YiLCJhdF9oYXNoIjoiNVdLYktJTkc0RXBySGxqOHV5ZHBzdyIsImFjciI6IjEiLCJyZXNvdXJjZV9hY2Nlc3MiOlsiUHVibGljIiwiQWRtaW4iLCJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl0sImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkRpZWdvIFJvZHJpZ3VlcyIsInByZWZlcnJlZF91c2VybmFtZSI6InVzZXJvbmUiLCJnaXZlbl9uYW1lIjoiRGllZ28iLCJmYW1pbHlfbmFtZSI6IlJvZHJpZ3VlcyIsImVtYWlsIjoiZGllZ28uZGVtZWRlaXJvc0BqYWxhLnVuaXZlcnNpdHkifQ.fpc8W09wbXammH-5Kwf7mqq1MpPw-FbRPvkFB6deKC_KISIR3GNuMh_OxROOQSOk2-0_fLjoB4vGR27-zENdnPGQKnpXgwXdmU4KmdlQ7P5PTJnr79oa8LJDql-CF-Hb8JaA72LgsYI8XNj6ro6d_L_XGfk7l8ObILBVrWQ3u_NLpRisv_4hRU8gpEXPsOzcgQsVG9T9HxUzrad-hS5Eia14KrBOhIGBvoSQyqoWhxFXf1qXH8jNYH8MQUcgKdeW4_T1mw-JK46zyoYfdGPDqwBExDfoZVb0xgLhycbvMaBNabUVhMB62kyznyVfjnpulb2DeH11YjsMKddDLpLdpQ
+
+### JWT Admin
+
+POST {{HostAddress}}/api/v1/authentication/login
+Content-Type: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "Admin!"
+}
+
+### JWT Public
+
+POST {{HostAddress}}/api/v1/authentication/login/oidc
+Content-Type: application/json
+
+{
+  "email": "userone@example.com",
+  "password": "Userone!"
+}
 
 ###
+
+POST {{HostAddress}}/api/v1/authentication/login
+Content-Type: application/json
+
+{
+  "email": "userone@example.com",
+  "password": "Userone!"
+}
+
+###
+
+# Basic authentication
+# Admin
+
+GET {{HostAddress}}/api/v1/authentication/basic
+Authorization: Basic {{BasicAuthHeaderAdmin}}
+
+### 
+
+# Basic authentication
+# Public
+
+GET {{HostAddress}}/api/v1/authentication/basic
+Authorization: Basic {{BasicAuthHeaderPublic}}
+
+### Admin Role only
+
+POST https://localhost:7227/api/v1/customers
+Content-Type: application/json
+Authorization: Bearer {{JwtKeycloakAuthHeaderPublic}}
+
+{
+  "name": "John",
+  "cpf": "12345678901"
+}
+
+### All roles 
+
+GET https://localhost:7227/api/v1/customers/12345678901
+Authorization: Bearer {{JwtKeycloakAuthHeaderPublic}}
+
+### All schemes (Basic, Bearer, and OAuthProvider)
+
+GET https://localhost:7227/welcome
+Authorization: Basic {{BasicAuthHeaderPublic}}
+
+###
+
+GET https://localhost:7227/api/v1/customers/01234567890
+Authorization: Basic {{BasicAuthHeaderPublic}}
+
+###
+
+PUT https://localhost:7227/api/v1/customers/01234567890/email
+Authorization: Basic {{BasicAuthHeaderPublic}}
+Content-Type: application/json
+
+"john2@example.com"

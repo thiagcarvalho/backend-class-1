@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetShop.Manager.Application.Contracts\PetShop.Manager.Application.Contracts.csproj" />
+    <ProjectReference Include="..\PetShop.Manager.Persistence.DataModels\PetShop.Manager.Persistence.DataModels.csproj" />
+  </ItemGroup>
+
 </Project>

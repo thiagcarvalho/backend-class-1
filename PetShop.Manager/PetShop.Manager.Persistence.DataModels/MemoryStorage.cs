@@ -1,4 +1,5 @@
 ﻿using PetShop.Manager.Persistence.DataModels.Security;
+using PetShop.Manager.Persistence.DataModels.Store;
 
 namespace PetShop.Manager.Persistence.DataModels
 {
@@ -62,6 +63,19 @@ namespace PetShop.Manager.Persistence.DataModels
                 CreatedAt = DateTime.Now,
                 CreatedBy = "System"
             },
+        };
+
+        public static Dictionary<int, CustomerDataModel> Customers = new Dictionary<int, CustomerDataModel>
+        {
+            [1] = new CustomerDataModel
+            {
+                Id = 1,
+                Name = "John Three Sixteen",
+                Cpf = "01234567890",
+                Email = "john@example.com",
+                CreatedAt = DateTime.Now,
+                CreatedBy = "System"
+            }
         };
     }
 }
