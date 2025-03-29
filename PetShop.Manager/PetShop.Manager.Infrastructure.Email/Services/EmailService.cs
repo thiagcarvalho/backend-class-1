@@ -1,6 +1,6 @@
-﻿using PetShop.Manager.Application.Contracts.Interfaces.Services;
-using System.Net.Mail;
+﻿using System.Net.Mail;
 using System.Net;
+using PetShop.Manager.Application.Contracts.Interfaces.Infrastructure;
 
 namespace PetShop.Manager.Infrastructure.Email.Services
 {
@@ -15,7 +15,7 @@ namespace PetShop.Manager.Infrastructure.Email.Services
                 smtpClient.Credentials = new NetworkCredential("admin", "123456");
                 smtpClient.Send(
                     new MailMessage(
-                        from: new MailAddress("no-reply@petshopmanager.com"),
+                        from: new MailAddress(message),
                         to: new MailAddress(to))
                     {
                         Body = message

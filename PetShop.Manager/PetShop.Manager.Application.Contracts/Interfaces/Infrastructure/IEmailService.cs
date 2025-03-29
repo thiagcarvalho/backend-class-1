@@ -1,4 +1,4 @@
-﻿namespace PetShop.Manager.Application.Contracts.Interfaces.Services 
+﻿namespace PetShop.Manager.Application.Contracts.Interfaces.Infrastructure 
 {
     public interface IEmailService
     {

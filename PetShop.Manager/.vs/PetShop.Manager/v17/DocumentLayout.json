@@ -1,43 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\",
+  "WorkspaceRootPath": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A98866E-CB2D-4AD3-B9BD-7392789299A6}|PetShop.Manager.Application\\PetShop.Manager.Application.csproj|c:\\users\\usuario\\documents\\bootcamp\\backend\\petshop.manager\\petshop.manager.application\\services\\store\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A98866E-CB2D-4AD3-B9BD-7392789299A6}|PetShop.Manager.Application\\PetShop.Manager.Application.csproj|solutionrelative:petshop.manager.application\\services\\store\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A98866E-CB2D-4AD3-B9BD-7392789299A6}|PetShop.Manager.Application\\PetShop.Manager.Application.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\petshop.manager\\petshop.manager.application\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A98866E-CB2D-4AD3-B9BD-7392789299A6}|PetShop.Manager.Application\\PetShop.Manager.Application.csproj|solutionrelative:petshop.manager.application\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 133,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application\\Services\\Store\\CustomerService.cs",
-              "RelativeDocumentMoniker": "PetShop.Manager.Application\\Services\\Store\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\bootcamp\\backend\\PetShop.Manager\\PetShop.Manager.Application\\Services\\Store\\CustomerService.cs",
-              "RelativeToolTip": "PetShop.Manager.Application\\Services\\Store\\CustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\PetShop.Manager.Application\\Config.cs",
+              "RelativeDocumentMoniker": "PetShop.Manager.Application\\Config.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\PetShop.Manager.Application\\Config.cs",
+              "RelativeToolTip": "PetShop.Manager.Application\\Config.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T14:54:17.859Z",
+              "WhenOpened": "2025-03-29T14:08:03.538Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 59,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

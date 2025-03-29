@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using PetShop.Manager.Application.Contracts.Interfaces.Infrastructure;
 using PetShop.Manager.Application.Contracts.Interfaces.Persistence.Commands.Store;
 using PetShop.Manager.Application.Contracts.Interfaces.Persistence.Queries.Security;
 using PetShop.Manager.Application.Contracts.Interfaces.Persistence.Queries.Store;
@@ -20,6 +21,7 @@ namespace PetShop.Manager.Application
             services.AddScoped<IRoleQueryRepository, RoleQueryRepository>();
             services.AddScoped<ICustomerCommandRepository, CustomerCommandRepository>();
             services.AddScoped<ICustomerQueryRepository, CustomerQueryRepository>();
+
         }
 
         public static void AddApplicationServices(this IServiceCollection services)
@@ -27,6 +29,7 @@ namespace PetShop.Manager.Application
             services.AddScoped<IAuthenticationService, AuthenticationService>();
             services.AddSingleton<IJwtService, JwtService>();
             services.AddScoped<ICustomerService, CustomerService>();
+            services.AddSingleton<IEmailService, IEmailService>();
         }
     }
 }
