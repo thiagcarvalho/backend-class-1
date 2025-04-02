@@ -65,6 +65,19 @@ namespace PetShop.Manager.Persistence.DataModels
             },
         };
 
+        public static Dictionary<int, PetDataModel> Pets = new Dictionary<int, PetDataModel>
+        {
+            [0] = new PetDataModel
+            {
+                Id = 0,
+                Name = "Spike",
+                Type = "Dog",
+                CreatedAt = DateTime.Now,
+                CreatedBy = "System"
+            }
+        };
+
+
         public static Dictionary<int, CustomerDataModel> Customers = new Dictionary<int, CustomerDataModel>
         {
             [1] = new CustomerDataModel

@@ -13,6 +13,7 @@ namespace PetShop.Manager.Persistence.Query
             CreateMap<CustomerDataModel, CustomerViewModel>(MemberList.Destination).ReverseMap();
             CreateMap<UserDataModel, UserViewModel>(MemberList.Destination);
             CreateMap<RoleDataModel, RoleViewModel>(MemberList.Destination);
+            CreateMap<PetDataModel, PetViewModel>(MemberList.Destination).ReverseMap();
         }
     }
 }

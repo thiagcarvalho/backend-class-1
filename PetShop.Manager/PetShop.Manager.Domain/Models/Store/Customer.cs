@@ -11,5 +11,7 @@ namespace PetShop.Manager.Domain.Models.Store
         public Cpf? Cpf { get; set; }
 
         public string? Email { get; set; }
+
+        public IEnumerable<Pet> Pets { get; set; } = [];
     }
 }

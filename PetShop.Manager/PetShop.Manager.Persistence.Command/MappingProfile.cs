@@ -10,6 +10,8 @@ namespace PetShop.Manager.Persistence.Command
         {
             CreateMap<CustomerDataModel, CustomerInputModel>(MemberList.Destination)
                 .ReverseMap();
+            CreateMap<PetDataModel, PetInputModel>(MemberList.Destination)
+                .ReverseMap();
         }
     }
 }

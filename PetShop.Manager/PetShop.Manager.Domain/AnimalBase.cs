@@ -1,11 +1,13 @@
-﻿using PetShop.Manager.Domain.Interfaces;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace PetShop.Manager.Domain
 {
-    public abstract class AnimalBase : BusinessObjectBase, IAnimal
+    public class AnimalBase
     {
-        public string Name { get; set; } = string.Empty;
-
-        public DateTime? Birthdary { get; set; }
+        public int Id { get; set; }
     }
 }

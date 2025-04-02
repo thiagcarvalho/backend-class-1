@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{A20265E8-F63B-4444-93EB-4E9BBA2F01AF}|PetShop.Manager.WebApi\\PetShop.Manager.WebApi.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\petshop.manager\\petshop.manager.webapi\\petshop.manager.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{A20265E8-F63B-4444-93EB-4E9BBA2F01AF}|PetShop.Manager.WebApi\\PetShop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\petshop.manager.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A20265E8-F63B-4444-93EB-4E9BBA2F01AF}|PetShop.Manager.WebApi\\PetShop.Manager.WebApi.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\petshop.manager\\petshop.manager.webapi\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20265E8-F63B-4444-93EB-4E9BBA2F01AF}|PetShop.Manager.WebApi\\PetShop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B56537-16E9-41F9-B61D-CC033B0F6764}|PetShop.Manager.Persistence.DataModels\\PetShop.Manager.Persistence.DataModels.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\petshop.manager\\petshop.manager.persistence.datamodels\\memorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B56537-16E9-41F9-B61D-CC033B0F6764}|PetShop.Manager.Persistence.DataModels\\PetShop.Manager.Persistence.DataModels.csproj|solutionrelative:petshop.manager.persistence.datamodels\\memorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862290B0-4BA2-43DB-BF04-648EA7A5BCAA}|PetShop.Manager.Persistence.Command\\PetShop.Manager.Persistence.Command.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\petshop.manager\\petshop.manager.persistence.command\\store\\petcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862290B0-4BA2-43DB-BF04-648EA7A5BCAA}|PetShop.Manager.Persistence.Command\\PetShop.Manager.Persistence.Command.csproj|solutionrelative:petshop.manager.persistence.command\\store\\petcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PetCommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\PetShop.Manager.Persistence.Command\\Store\\PetCommandRepository.cs",
+              "RelativeDocumentMoniker": "PetShop.Manager.Persistence.Command\\Store\\PetCommandRepository.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\PetShop.Manager.Persistence.Command\\Store\\PetCommandRepository.cs",
+              "RelativeToolTip": "PetShop.Manager.Persistence.Command\\Store\\PetCommandRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:42:40.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemoryStorage.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\PetShop.Manager.Persistence.DataModels\\MemoryStorage.cs",
+              "RelativeDocumentMoniker": "PetShop.Manager.Persistence.DataModels\\MemoryStorage.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\PetShop.Manager.Persistence.DataModels\\MemoryStorage.cs",
+              "RelativeToolTip": "PetShop.Manager.Persistence.DataModels\\MemoryStorage.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwEcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:51:56.248Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +62,22 @@
               "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Petshop.Manager.WebApi.http",
               "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\Petshop.Manager.WebApi\\Petshop.Manager.WebApi.http",
               "RelativeToolTip": "Petshop.Manager.WebApi\\Petshop.Manager.WebApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAA/wFoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-02T01:07:50.905Z",
+              "WhenOpened": "2025-04-02T14:35:29.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PetsController.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\Petshop.Manager.WebApi\\Controllers\\PetsController.cs",
+              "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Controllers\\PetsController.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\Petshop.Manager.WebApi\\Controllers\\PetsController.cs",
+              "RelativeToolTip": "Petshop.Manager.WebApi\\Controllers\\PetsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:27:15.094Z",
               "EditorCaption": ""
             }
           ]

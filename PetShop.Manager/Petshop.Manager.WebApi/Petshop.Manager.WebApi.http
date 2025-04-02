@@ -84,3 +84,19 @@ Authorization: Basic {{BasicAuthHeaderPublic}}
 Content-Type: application/json
 
 "thiagoc@example.com"
+
+###
+
+POST https://localhost:7227/api/v1/Pets
+Authorization: Basic {{BasicAuthHeaderAdmin}}
+Content-Type: application/json
+{
+  "id": 3,
+  "name": "Juscelino",
+  "type": "Jumento"
+}
+
+###
+
+GET https://localhost:7227/api/v1/Pets/3
+Authorization: Basic {{BasicAuthHeaderAdmin}}

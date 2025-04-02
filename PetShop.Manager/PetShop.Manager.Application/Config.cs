@@ -22,6 +22,8 @@ namespace PetShop.Manager.Application
             services.AddScoped<IRoleQueryRepository, RoleQueryRepository>();
             services.AddScoped<ICustomerCommandRepository, CustomerCommandRepository>();
             services.AddScoped<ICustomerQueryRepository, CustomerQueryRepository>();
+            services.AddScoped<IPetCommandRepository, PetCommandRepository>();
+            services.AddScoped<IPetQueryRepository, PetQueryRepository>();
 
         }
 
@@ -31,6 +33,7 @@ namespace PetShop.Manager.Application
             services.AddSingleton<IJwtService, JwtService>();
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddSingleton<IEmailService, EmailService>();
+            services.AddScoped<IPetService, PetService>();
         }
     }
 }
