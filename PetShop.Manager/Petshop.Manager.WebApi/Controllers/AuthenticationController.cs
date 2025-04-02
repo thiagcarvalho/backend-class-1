@@ -16,17 +16,13 @@ namespace PetShop.Manager.WebApi.Controllers
 
         private readonly IJwtService _jwtService;
 
-        private readonly HttpClient _httpClient;
-
         public AuthenticationController(
             IAuthenticationService authenticationService,
             IJwtService jwtService,
-            HttpClient httpClient,
             IConfiguration configuration)
         {
             _authenticationService = authenticationService;
             _jwtService = jwtService;
-            _httpClient = httpClient;
         }
 
         [HttpGet("basic")]

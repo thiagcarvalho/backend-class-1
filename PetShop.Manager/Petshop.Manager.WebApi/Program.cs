@@ -3,8 +3,12 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authentication.OAuth;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using PetShop.Manager.Application;
+using PetShop.Manager.Application.Contracts.Interfaces;
 using PetShop.Manager.WebApi.Config;
 using PetShop.Manager.WebApi.Middlewares;
 using PetShop.Manager.WebApi.Security.Basic;
@@ -28,6 +32,7 @@ namespace PetShop.Manager.WebApi
             builder.Services.AddScoped<IMyScopedService, MyScopedService>();
             builder.Services.AddTransient<IMyTransientService, MyTransientService>();
 
+            builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             builder.Services.AddHttpClient();
 
             // Application Services
@@ -155,9 +160,34 @@ namespace PetShop.Manager.WebApi
             builder.Services.AddAuthorization();
 
             builder.Services.AddControllers();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(options =>
+            {
+                options.AddSecurityDefinition("Basic", new OpenApiSecurityScheme
+                {
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "Basic"
+                });
+
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Basic"
+                            }
+                        },
+                        new List<string>()
+                    }
+                });
+            });
 
             var app = builder.Build();
 

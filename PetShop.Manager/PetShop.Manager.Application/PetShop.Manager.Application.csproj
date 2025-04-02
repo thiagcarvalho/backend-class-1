@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PetShop.Manager.Infrastructure.Email\PetShop.Manager.Infrastructure.Email.csproj" />
     <ProjectReference Include="..\PetShop.Manager.Persistence.Command\PetShop.Manager.Persistence.Command.csproj" />
     <ProjectReference Include="..\PetShop.Manager.Persistence.Query\PetShop.Manager.Persistence.Query.csproj" />
   </ItemGroup>

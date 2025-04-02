@@ -20,7 +20,7 @@ namespace PetShop.Manager.WebApi.Controllers
         }
 
         [HttpPost]
-        [Authorize(AuthenticationSchemes = Constants.AdminAuthSchemes, Roles = "Admin")]
+        [Authorize(AuthenticationSchemes = Constants.AuthSchemes)]
         public IActionResult Post([Required] CustomerInputModel customer)
         {
             _customerService.Save(customer);

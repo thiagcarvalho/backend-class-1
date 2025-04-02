@@ -3,8 +3,6 @@ using PetShop.Manager.Application.Contracts.Interfaces.Persistence.Commands.Stor
 using PetShop.Manager.Application.Contracts.Models.InputModels.Store;
 using PetShop.Manager.Persistence.DataModels;
 using PetShop.Manager.Persistence.DataModels.Store;
-using System.Net;
-using System.Net.Mail;
 
 namespace PetShop.Manager.Persistence.Command.Store
 {
@@ -52,6 +50,8 @@ namespace PetShop.Manager.Persistence.Command.Store
             //}
         }
 
+        //qual a diferença de UserDataModel para CustomerInputModel
+        //como ficaria para validar o valor da chave, teria que comparar com o cpf?
         public void Save(CustomerInputModel inputModel)
         {
             var customerDataModel = _mapper.Map<CustomerDataModel>(inputModel);
@@ -64,7 +64,7 @@ namespace PetShop.Manager.Persistence.Command.Store
 
             MemoryStorage
                 .Customers
-                .Add(MemoryStorage.Customers.Count, customerDataModel);
+                .Add(MemoryStorage.Customers.Count+1, customerDataModel);
         }
     }
 }

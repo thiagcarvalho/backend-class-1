@@ -43,12 +43,6 @@ Content-Type: application/json
 
 ###
 
-# Basic authentication
-# Admin
-
-GET {{HostAddress}}/api/v1/authentication/basic
-Authorization: Basic {{BasicAuthHeaderAdmin}}
-
 ### 
 
 # Basic authentication
@@ -61,17 +55,17 @@ Authorization: Basic {{BasicAuthHeaderPublic}}
 
 POST https://localhost:7227/api/v1/customers
 Content-Type: application/json
-Authorization: Bearer {{JwtKeycloakAuthHeaderPublic}}
+Authorization: Basic {{BasicAuthHeaderAdmin}}
 
 {
-  "name": "John",
+  "name": "Thiago",
   "cpf": "12345678901"
 }
 
 ### All roles 
 
 GET https://localhost:7227/api/v1/customers/12345678901
-Authorization: Bearer {{JwtKeycloakAuthHeaderPublic}}
+Authorization: Basic {{BasicAuthHeaderAdmin}}
 
 ### All schemes (Basic, Bearer, and OAuthProvider)
 
@@ -85,8 +79,8 @@ Authorization: Basic {{BasicAuthHeaderPublic}}
 
 ###
 
-PUT https://localhost:7227/api/v1/customers/01234567890/email
+PUT https://localhost:7227/api/v1/customers/12345678901/email
 Authorization: Basic {{BasicAuthHeaderPublic}}
 Content-Type: application/json
 
-"john2@example.com"
+"thiagoc@example.com"

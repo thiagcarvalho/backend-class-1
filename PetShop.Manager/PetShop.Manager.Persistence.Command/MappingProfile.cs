@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using PetShop.Manager.Application.Contracts.Models.ViewModels.Store;
+using PetShop.Manager.Application.Contracts.Models.InputModels.Store;
 using PetShop.Manager.Persistence.DataModels.Store;
 
 namespace PetShop.Manager.Persistence.Command
@@ -8,7 +8,7 @@ namespace PetShop.Manager.Persistence.Command
     {
         public MappingProfile()
         {
-            CreateMap<CustomerDataModel, CustomerViewModel>(MemberList.Destination)
+            CreateMap<CustomerDataModel, CustomerInputModel>(MemberList.Destination)
                 .ReverseMap();
         }
     }
