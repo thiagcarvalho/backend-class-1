@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57BE939A-96A3-49B3-9B7B-DAAB361BD6C3}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpatterns.observer\\designpatterns.observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57BE939A-96A3-49B3-9B7B-DAAB361BD6C3}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|solutionrelative:designpatterns.observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57BE939A-96A3-49B3-9B7B-DAAB361BD6C3}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpatterns.observer\\designpatterns.observer\\subjects\\soccerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57BE939A-96A3-49B3-9B7B-DAAB361BD6C3}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|solutionrelative:designpatterns.observer\\subjects\\soccerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57BE939A-96A3-49B3-9B7B-DAAB361BD6C3}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpatterns.observer\\designpatterns.observer\\observers\\soccerfan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57BE939A-96A3-49B3-9B7B-DAAB361BD6C3}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|solutionrelative:designpatterns.observer\\observers\\soccerfan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57BE939A-96A3-49B3-9B7B-DAAB361BD6C3}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpatterns.observer\\designpatterns.observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57BE939A-96A3-49B3-9B7B-DAAB361BD6C3}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|solutionrelative:designpatterns.observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\DesignPatterns.Observer\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPatterns.Observer\\Program.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\DesignPatterns.Observer\\Program.cs",
+              "RelativeToolTip": "DesignPatterns.Observer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:00:18.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IObserver.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\DesignPatterns.Observer\\IObserver.cs",
+              "RelativeDocumentMoniker": "DesignPatterns.Observer\\IObserver.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\DesignPatterns.Observer\\IObserver.cs",
+              "RelativeToolTip": "DesignPatterns.Observer\\IObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T12:54:56.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SoccerTeam.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\DesignPatterns.Observer\\Subjects\\SoccerTeam.cs",
+              "RelativeDocumentMoniker": "DesignPatterns.Observer\\Subjects\\SoccerTeam.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\DesignPatterns.Observer\\Subjects\\SoccerTeam.cs",
+              "RelativeToolTip": "DesignPatterns.Observer\\Subjects\\SoccerTeam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T20:24:13.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoccerFan.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\DesignPatterns.Observer\\Observers\\SoccerFan.cs",
+              "RelativeDocumentMoniker": "DesignPatterns.Observer\\Observers\\SoccerFan.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\DesignPatterns.Observer\\Observers\\SoccerFan.cs",
+              "RelativeToolTip": "DesignPatterns.Observer\\Observers\\SoccerFan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T20:19:58.541Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

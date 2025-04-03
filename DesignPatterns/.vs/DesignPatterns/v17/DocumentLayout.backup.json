@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06B678A8-AF5A-DAA6-5798-A28E105A332B}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpatterns.observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06B678A8-AF5A-DAA6-5798-A28E105A332B}|DesignPatterns.Observer\\DesignPatterns.Observer.csproj|solutionrelative:designpatterns.observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPatterns.Observer\\Program.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPatterns.Observer\\Program.cs",
+              "RelativeToolTip": "DesignPatterns.Observer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:10:26.819Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
