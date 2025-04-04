@@ -91,12 +91,22 @@ POST https://localhost:7227/api/v1/Pets
 Authorization: Basic {{BasicAuthHeaderAdmin}}
 Content-Type: application/json
 {
-  "id": 3,
-  "name": "Juscelino",
-  "type": "Jumento"
+  "id": 2,
+  "name": "Spike",
+  "type": "Dog"
 }
 
 ###
 
-GET https://localhost:7227/api/v1/Pets/3
+GET https://localhost:7227/api/v1/Pets/2
+Authorization: Basic {{BasicAuthHeaderAdmin}}
+
+###
+
+POST https://localhost:7227/api/v1/customers/12345678901/pets/2
+Authorization: Basic {{BasicAuthHeaderAdmin}}
+
+###
+
+DELETE https://localhost:7227/api/v1/customers/01234567890/pets/1
 Authorization: Basic {{BasicAuthHeaderAdmin}}

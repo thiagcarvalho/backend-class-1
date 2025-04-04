@@ -35,6 +35,26 @@ namespace PetShop.Manager.WebApi.Controllers
             return customer is null ? NotFound() : Ok(customer);
         }
 
+        [HttpPost("{cpf}/pets/{petId}")]
+        [Authorize(AuthenticationSchemes = Constants.AuthSchemes)]
+        public IActionResult AddPet(
+            [FromRoute] string cpf,
+            [FromRoute] int petId)
+        {
+            _customerService.AddPet(cpf, petId);
+            return Created();
+        }
+
+        [HttpDelete("{cpf}/pets/{petId}")]
+        [Authorize(AuthenticationSchemes = Constants.AuthSchemes)]
+        public IActionResult RemovePet(
+            [FromRoute] string cpf,
+            [FromRoute] int petId)
+        {
+            _customerService.RemovePet(cpf, petId);
+            return NoContent();
+        }
+
         [HttpPut("{cpf}/email")]
         [Authorize(AuthenticationSchemes = Constants.AuthSchemes)]
         public IActionResult Email(

@@ -40,5 +40,15 @@ namespace PetShop.Manager.Application.Services.Store
         {
             return _customerQueryRepository.GetByCpf(cpf);
         }
+
+        public void AddPet(string cpf, int petId)
+        {
+            _customerCommandRepository.AddPet(cpf, petId);
+        }
+
+        public void RemovePet(string cpf, int petId)
+        {
+            _customerCommandRepository.RemovePet(cpf, petId);
+        }
     }
 }

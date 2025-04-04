@@ -9,5 +9,7 @@
         public required string Cpf { get; set; }
 
         public string? Email { get; set; }
+
+        public List<PetDataModel> Pets { get; set; } = [];
     }
 }

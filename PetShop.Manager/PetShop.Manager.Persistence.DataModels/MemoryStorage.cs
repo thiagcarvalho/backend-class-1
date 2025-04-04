@@ -87,7 +87,11 @@ namespace PetShop.Manager.Persistence.DataModels
                 Cpf = "01234567890",
                 Email = "john@example.com",
                 CreatedAt = DateTime.Now,
-                CreatedBy = "System"
+                CreatedBy = "System",
+                Pets = new List<PetDataModel>
+                {
+                    Pets[0]
+                }
             }
         };
     }

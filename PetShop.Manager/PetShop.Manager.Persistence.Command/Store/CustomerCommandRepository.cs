@@ -15,6 +15,31 @@ namespace PetShop.Manager.Persistence.Command.Store
             _mapper = mapper;
         }
 
+        public void AddPet(string cpf, int petId)
+        {
+            var customer = MemoryStorage
+                .Customers
+                .Values
+                .FirstOrDefault(x => x.Cpf == cpf) ?? throw new ApplicationException();
+
+            if (customer.Pets.Any(x => x.Id == petId))
+            {
+                return;
+            }
+
+            var pet = MemoryStorage
+                .Pets
+                .Values
+                .FirstOrDefault(x => x.Id == petId);
+
+            if (pet is null)
+            {
+                return;
+            }
+
+            customer.Pets.Add(pet);
+        }
+
         public void ChangeEmail(string cpf, string email)
         {
             var customer = MemoryStorage
@@ -27,27 +52,25 @@ namespace PetShop.Manager.Persistence.Command.Store
                 return;
             }
 
-            // Change the email
             customer.Email = email;
 
-            // Notify/validate the new email
-            //try
-            //{
-            //    using SmtpClient smtpClient = new();
-            //    smtpClient.Host = "localhost";
-            //    smtpClient.Credentials = new NetworkCredential("admin", "123456");
-            //    smtpClient.Send(
-            //        new MailMessage(
-            //            from: new MailAddress("no-reply@petshopmanager.com"),
-            //            to: new MailAddress(customer.Email))
-            //        {
-            //            Body = "Your email was changed, please click <here> to validate this change.",
-            //        });
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine(ex);
-            //}
+        }
+
+        public void RemovePet(string cpf, int petId)
+        {
+            var customer = MemoryStorage
+                .Customers
+                .Values
+                .FirstOrDefault(x => x.Cpf == cpf) ?? throw new ApplicationException();
+
+            
+            if (!customer.Pets.Any(x => x.Id == petId))
+            {
+                return;
+            }
+
+            customer.Pets.Remove(customer.Pets.First(x => x.Id == petId));
+
         }
 
         //qual a diferença de UserDataModel para CustomerInputModel

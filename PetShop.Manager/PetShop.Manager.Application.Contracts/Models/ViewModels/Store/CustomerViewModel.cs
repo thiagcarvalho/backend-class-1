@@ -11,5 +11,7 @@
         public required string Cpf { get; set; }
 
         public string? Email { get; set; }
+
+        public List<PetViewModel> Pets { get; set; } = [];
     }
 }
