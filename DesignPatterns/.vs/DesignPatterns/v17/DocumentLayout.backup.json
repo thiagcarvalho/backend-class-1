@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpattern.decorator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|solutionrelative:designpattern.decorator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09DD7498-942E-4230-B687-6A73DCA9831B}|DesignPattern.Adapter\\DesignPattern.Adapter.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpattern.adapter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DD7498-942E-4230-B687-6A73DCA9831B}|DesignPattern.Adapter\\DesignPattern.Adapter.csproj|solutionrelative:designpattern.adapter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpattern.decorator\\burgers\\cheesedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|solutionrelative:designpattern.decorator\\burgers\\cheesedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpattern.decorator\\burgers\\bacondecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|solutionrelative:designpattern.decorator\\burgers\\bacondecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpattern.decorator\\burgers\\burgerdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|solutionrelative:designpattern.decorator\\burgers\\burgerdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpattern.decorator\\burgers\\meatburger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|solutionrelative:designpattern.decorator\\burgers\\meatburger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpattern.decorator\\burgers\\veganburger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|solutionrelative:designpattern.decorator\\burgers\\veganburger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpattern.decorator\\iburger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD7096A0-5F66-478C-9F1D-DDC88BDA9C93}|DesignPattern.Decorator\\DesignPattern.Decorator.csproj|solutionrelative:designpattern.decorator\\iburger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09DD7498-942E-4230-B687-6A73DCA9831B}|DesignPattern.Adapter\\DesignPattern.Adapter.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\designpatterns\\designpattern.adapter\\devices\\powersocketadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DD7498-942E-4230-B687-6A73DCA9831B}|DesignPattern.Adapter\\DesignPattern.Adapter.csproj|solutionrelative:designpattern.adapter\\devices\\powersocketadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaconDecorator.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\BaconDecorator.cs",
-              "RelativeDocumentMoniker": "DesignPattern.Decorator\\Burgers\\BaconDecorator.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\BaconDecorator.cs",
-              "RelativeToolTip": "DesignPattern.Decorator\\Burgers\\BaconDecorator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PowerSocketAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Adapter\\Devices\\PowerSocketAdapter.cs",
+              "RelativeDocumentMoniker": "DesignPattern.Adapter\\Devices\\PowerSocketAdapter.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Adapter\\Devices\\PowerSocketAdapter.cs",
+              "RelativeToolTip": "DesignPattern.Adapter\\Devices\\PowerSocketAdapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:30:46.036Z",
+              "WhenOpened": "2025-04-04T20:16:33.442Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BurgerDecorator.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\BurgerDecorator.cs",
-              "RelativeDocumentMoniker": "DesignPattern.Decorator\\Burgers\\BurgerDecorator.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\BurgerDecorator.cs",
-              "RelativeToolTip": "DesignPattern.Decorator\\Burgers\\BurgerDecorator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:28:35.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VeganBurger.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\VeganBurger.cs",
-              "RelativeDocumentMoniker": "DesignPattern.Decorator\\Burgers\\VeganBurger.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\VeganBurger.cs",
-              "RelativeToolTip": "DesignPattern.Decorator\\Burgers\\VeganBurger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:28:23.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MeatBurger.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\MeatBurger.cs",
-              "RelativeDocumentMoniker": "DesignPattern.Decorator\\Burgers\\MeatBurger.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\MeatBurger.cs",
-              "RelativeToolTip": "DesignPattern.Decorator\\Burgers\\MeatBurger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:28:19.871Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Program.cs",
-              "RelativeDocumentMoniker": "DesignPattern.Decorator\\Program.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Program.cs",
-              "RelativeToolTip": "DesignPattern.Decorator\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Adapter\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPattern.Adapter\\Program.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Adapter\\Program.cs",
+              "RelativeToolTip": "DesignPattern.Adapter\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:25:43.25Z",
+              "WhenOpened": "2025-04-04T20:09:53.74Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CheeseDecorator.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\CheeseDecorator.cs",
-              "RelativeDocumentMoniker": "DesignPattern.Decorator\\Burgers\\CheeseDecorator.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\Burgers\\CheeseDecorator.cs",
-              "RelativeToolTip": "DesignPattern.Decorator\\Burgers\\CheeseDecorator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:30:48.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBurger.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\IBurger.cs",
-              "RelativeDocumentMoniker": "DesignPattern.Decorator\\IBurger.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\DesignPatterns\\DesignPattern.Decorator\\IBurger.cs",
-              "RelativeToolTip": "DesignPattern.Decorator\\IBurger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:28:00.745Z"
             }
           ]
         }
