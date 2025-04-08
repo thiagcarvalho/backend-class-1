@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A20265E8-F63B-4444-93EB-4E9BBA2F01AF}|PetShop.Manager.WebApi\\PetShop.Manager.WebApi.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\petshop.manager\\petshop.manager.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A20265E8-F63B-4444-93EB-4E9BBA2F01AF}|PetShop.Manager.WebApi\\PetShop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B56537-16E9-41F9-B61D-CC033B0F6764}|PetShop.Manager.Persistence.DataModels\\PetShop.Manager.Persistence.DataModels.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\petshop.manager\\petshop.manager.persistence.datamodels\\memorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B56537-16E9-41F9-B61D-CC033B0F6764}|PetShop.Manager.Persistence.DataModels\\PetShop.Manager.Persistence.DataModels.csproj|solutionrelative:petshop.manager.persistence.datamodels\\memorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A20265E8-F63B-4444-93EB-4E9BBA2F01AF}|PetShop.Manager.WebApi\\PetShop.Manager.WebApi.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\petshop.manager\\petshop.manager.webapi\\petshop.manager.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{A20265E8-F63B-4444-93EB-4E9BBA2F01AF}|PetShop.Manager.WebApi\\PetShop.Manager.WebApi.csproj|solutionrelative:petshop.manager.webapi\\petshop.manager.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
@@ -19,15 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\Petshop.Manager.WebApi\\Dockerfile",
+              "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Dockerfile",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\Petshop.Manager.WebApi\\Dockerfile",
+              "RelativeToolTip": "Petshop.Manager.WebApi\\Dockerfile",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-07T20:13:12.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemoryStorage.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\PetShop.Manager.Persistence.DataModels\\MemoryStorage.cs",
+              "RelativeDocumentMoniker": "PetShop.Manager.Persistence.DataModels\\MemoryStorage.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\PetShop.Manager.Persistence.DataModels\\MemoryStorage.cs",
+              "RelativeToolTip": "PetShop.Manager.Persistence.DataModels\\MemoryStorage.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:53:46.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Petshop.Manager.WebApi.http",
               "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\Petshop.Manager.WebApi\\Petshop.Manager.WebApi.http",
               "RelativeDocumentMoniker": "Petshop.Manager.WebApi\\Petshop.Manager.WebApi.http",
               "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\PetShop.Manager\\Petshop.Manager.WebApi\\Petshop.Manager.WebApi.http",
               "RelativeToolTip": "Petshop.Manager.WebApi\\Petshop.Manager.WebApi.http",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAIwGgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-03T23:42:57.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:42:57.139Z"
             }
           ]
         }
