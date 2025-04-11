@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using System.Data;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Npgsql;
 using PetShop.Manager.Application.Contracts.Interfaces;
 using PetShop.Manager.Application.Contracts.Interfaces.Infrastructure;
 using PetShop.Manager.Application.Contracts.Interfaces.Persistence.Commands.Store;
@@ -18,6 +21,11 @@ namespace PetShop.Manager.Application
     {
         public static void AddRepositories(this IServiceCollection services)
         {
+            services.AddScoped<IDbConnection>(sp =>
+            {
+                var connectionString = sp.GetRequiredService<IConfiguration>().GetConnectionString("DefaultConnection");
+                return new NpgsqlConnection(connectionString);
+            });
             services.AddScoped<IUserQueryRepository, UserQueryRepository>();
             services.AddScoped<IRoleQueryRepository, RoleQueryRepository>();
             services.AddScoped<ICustomerCommandRepository, CustomerCommandRepository>();

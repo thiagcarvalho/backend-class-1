@@ -1,7 +1,9 @@
-﻿using AutoMapper;
+﻿using System.Data;
+using AutoMapper;
 using PetShop.Manager.Application.Contracts.Interfaces.Persistence.Commands.Store;
 using PetShop.Manager.Application.Contracts.Models.InputModels.Store;
 using PetShop.Manager.Persistence.DataModels;
+using PetShop.Manager.Persistence.DataModels.Extensions;
 using PetShop.Manager.Persistence.DataModels.Store;
 
 namespace PetShop.Manager.Persistence.Command.Store
@@ -9,10 +11,14 @@ namespace PetShop.Manager.Persistence.Command.Store
     public class CustomerCommandRepository : ICustomerCommandRepository
     {
         private readonly IMapper _mapper;
+        private readonly IDbConnection _dbConnection;
 
-        public CustomerCommandRepository(IMapper mapper)
+
+        public CustomerCommandRepository(IMapper mapper, IDbConnection dbConnection)
         {
             _mapper = mapper;
+            _dbConnection = dbConnection;
+            _dbConnection.Open();
         }
 
         public void AddPet(string cpf, int petId)
@@ -73,8 +79,7 @@ namespace PetShop.Manager.Persistence.Command.Store
 
         }
 
-        //qual a diferença de UserDataModel para CustomerInputModel
-        //como ficaria para validar o valor da chave, teria que comparar com o cpf?
+
         public void Save(CustomerInputModel inputModel)
         {
             var customerDataModel = _mapper.Map<CustomerDataModel>(inputModel);
@@ -85,9 +90,21 @@ namespace PetShop.Manager.Persistence.Command.Store
                 return;
             }
 
-            MemoryStorage
-                .Customers
-                .Add(MemoryStorage.Customers.Count+1, customerDataModel);
+            InsertToDatabase(customerDataModel);
+        }
+
+        private void InsertToDatabase(CustomerDataModel customerDataModel)
+        {
+            var command = _dbConnection.CreateCommand();
+            command.CommandText = @"INSERT INTO Customers (name, birthday, cpf, email, created_at, created_by) 
+                                    VALUES (:Name, :Birthday, :Cpf, :Email, :CreatedAt, :CreatedBy)";
+            command.Parameters.Add(command.GetParameter(":Name", customerDataModel.Name));
+            command.Parameters.Add(command.GetParameter(":Birthday", customerDataModel.Birthday, DbType.DateTime));
+            command.Parameters.Add(command.GetParameter(":Cpf", customerDataModel.Cpf));
+            command.Parameters.Add(command.GetParameter(":Email", customerDataModel.Email, DbType.String));
+            command.Parameters.Add(command.GetParameter(":CreatedAt", DateTime.Now, DbType.DateTime));
+            command.Parameters.Add(command.GetParameter(":CreatedBy", "System", DbType.String));
+            command.ExecuteNonQuery();
         }
     }
 }
