@@ -4,6 +4,7 @@ using PetShop.Manager.Application.Contracts.Interfaces.Persistence.Queries.Store
 using PetShop.Manager.Application.Contracts.Interfaces.Services.Store;
 using PetShop.Manager.Application.Contracts.Models.InputModels.Store;
 using PetShop.Manager.Application.Contracts.Models.ViewModels.Store;
+using PetShop.Manager.Application.Exceptions;
 
 namespace PetShop.Manager.Application.Services.Store
 {
@@ -34,6 +35,15 @@ namespace PetShop.Manager.Application.Services.Store
         public void Save(CustomerInputModel inputModel)
         {
             _customerCommandRepository.Save(inputModel);
+        }
+
+        public void UpdateCustomer(int id, CustomerInputModel inputModel)
+        {
+            if (_customerCommandRepository.DoesCustomerExist(id) == false)
+            {
+                throw new ResourceNotFoundException();
+            }
+            _customerCommandRepository.UpdateCustomer(id, inputModel);
         }
 
         public CustomerViewModel? GetByCpf(string cpf)

@@ -78,8 +78,6 @@ namespace PetShop.Manager.Persistence.Command.Store
             customer.Pets.Remove(customer.Pets.First(x => x.Id == petId));
 
         }
-
-
         public void Save(CustomerInputModel inputModel)
         {
             var customerDataModel = _mapper.Map<CustomerDataModel>(inputModel);
@@ -91,6 +89,15 @@ namespace PetShop.Manager.Persistence.Command.Store
             }
 
             InsertToDatabase(customerDataModel);
+        }
+
+        public void UpdateCustomer(int id, CustomerInputModel inputModel)
+        {
+
+            var customerDataModel = _mapper.Map<CustomerDataModel>(inputModel);
+
+            UpdateToDatabase(customerDataModel);
+
         }
 
         private void InsertToDatabase(CustomerDataModel customerDataModel)
@@ -105,6 +112,36 @@ namespace PetShop.Manager.Persistence.Command.Store
             command.Parameters.Add(command.GetParameter(":CreatedAt", DateTime.Now, DbType.DateTime));
             command.Parameters.Add(command.GetParameter(":CreatedBy", "System", DbType.String));
             command.ExecuteNonQuery();
+        }
+
+        private void UpdateToDatabase(CustomerDataModel customerDataModel)
+        {
+            var command = _dbConnection.CreateCommand();
+            command.CommandText = @"UPDATE Customers 
+                                    SET name = :Name, 
+                                        birthday = :Birthday, 
+                                        cpf = :Cpf, 
+                                        email = :Email, 
+                                        updated_at = :UpdatedAt, 
+                                        updated_by = :UpdatedBy 
+                                    WHERE id = :Id";
+            command.Parameters.Add(command.GetParameter(":Name", customerDataModel.Name));
+            command.Parameters.Add(command.GetParameter(":Birthday", customerDataModel.Birthday, DbType.DateTime));
+            command.Parameters.Add(command.GetParameter(":Cpf", customerDataModel.Cpf));
+            command.Parameters.Add(command.GetParameter(":Email", customerDataModel.Email, DbType.String));
+            command.Parameters.Add(command.GetParameter(":UpdatedAt", DateTime.Now, DbType.DateTime));
+            command.Parameters.Add(command.GetParameter(":UpdatedBy", "System", DbType.String));
+            command.Parameters.Add(command.GetParameter(":Id", customerDataModel.Id, DbType.Int32));
+            command.ExecuteNonQuery();
+        }
+        public bool DoesCustomerExist(int id)
+        {
+            var command = _dbConnection.CreateCommand();
+            command.CommandText = "SELECT COUNT(1) FROM Customers WHERE id = :Id";
+            command.Parameters.Add(command.GetParameter(":Id", id, DbType.Int32));
+
+            var result = command.ExecuteScalar();
+            return Convert.ToInt32(result) > 0;
         }
     }
 }

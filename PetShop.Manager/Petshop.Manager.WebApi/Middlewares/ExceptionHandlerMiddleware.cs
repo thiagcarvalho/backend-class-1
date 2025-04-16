@@ -1,4 +1,6 @@
-﻿namespace PetShop.Manager.WebApi.Middlewares
+﻿using PetShop.Manager.Application.Exceptions;
+
+namespace PetShop.Manager.WebApi.Middlewares
 {
     public class ExceptionHandlerMiddleware
     {
@@ -17,6 +19,17 @@
             try
             {
                 await _next(context); // ... Controller/Action
+            }
+            catch (ResourceNotFoundException ex)
+            {
+                Console.WriteLine(ex.Message);
+                context.Response.StatusCode = 404;
+                await context.Response.WriteAsJsonAsync(
+                    new
+                    {
+                        Message = "Resource not found",
+                        TraceId = context.TraceIdentifier
+                    });
             }
             catch (Exception ex)
             {

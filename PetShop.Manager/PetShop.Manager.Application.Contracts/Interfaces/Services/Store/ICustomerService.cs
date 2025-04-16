@@ -8,7 +8,7 @@ namespace PetShop.Manager.Application.Contracts.Interfaces.Services.Store
         void Save(CustomerInputModel inputModel);
 
         void ChangeEmail(string cpf, string email);
-
+        void UpdateCustomer(int id, CustomerInputModel inputModel);
         void AddPet(string cpf, int petId);
 
         void RemovePet(string cpf, int petId);

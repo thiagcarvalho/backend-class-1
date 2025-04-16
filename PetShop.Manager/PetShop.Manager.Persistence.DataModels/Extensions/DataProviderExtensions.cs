@@ -18,6 +18,11 @@ namespace PetShop.Manager.Persistence.DataModels.Extensions
             {
                 parameter.DbType = dbType.Value;
             }
+
+            if (value is DateTime)
+            {
+                parameter.Value = ((DateTime)value).ToUniversalTime();
+            }
             return parameter;
         }
     }

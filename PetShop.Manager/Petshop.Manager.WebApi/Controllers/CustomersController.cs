@@ -27,6 +27,19 @@ namespace PetShop.Manager.WebApi.Controllers
             return Created();
         }
 
+        [HttpPut("{id}")]
+        [Authorize(AuthenticationSchemes = Constants.AuthSchemes)]
+        public IActionResult Put (
+            [FromRoute] int id,
+            [FromBody, Required] CustomerInputModel customer
+            )
+        {
+            customer.Id = id;
+            _customerService.UpdateCustomer(id, customer);
+            return NoContent();
+        }
+
+
         [HttpGet("{cpf}")]
         [Authorize(AuthenticationSchemes = Constants.AuthSchemes)]
         public IActionResult Get(string cpf)
@@ -35,6 +48,15 @@ namespace PetShop.Manager.WebApi.Controllers
             return customer is null ? NotFound() : Ok(customer);
         }
 
+        [HttpPut("{cpf}/email")]
+        [Authorize(AuthenticationSchemes = Constants.AuthSchemes)]
+        public IActionResult Email(
+            [FromRoute] string cpf,
+            [FromBody, Required, EmailAddress] string email)
+        {
+            _customerService.ChangeEmail(cpf, email);
+            return NoContent();
+        }
         [HttpPost("{cpf}/pets/{petId}")]
         [Authorize(AuthenticationSchemes = Constants.AuthSchemes)]
         public IActionResult AddPet(
@@ -55,14 +77,5 @@ namespace PetShop.Manager.WebApi.Controllers
             return NoContent();
         }
 
-        [HttpPut("{cpf}/email")]
-        [Authorize(AuthenticationSchemes = Constants.AuthSchemes)]
-        public IActionResult Email(
-            [FromRoute] string cpf,
-            [FromBody, Required, EmailAddress] string email)
-        {
-            _customerService.ChangeEmail(cpf, email);
-            return NoContent();
-        }
     }
 }
