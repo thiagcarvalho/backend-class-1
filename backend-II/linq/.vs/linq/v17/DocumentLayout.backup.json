@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\linq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33A48161-65CA-8145-325F-5DF8520100A9}|Linq-Class\\class_linq.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\backend-ii\\linq\\linq-class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A48161-65CA-8145-325F-5DF8520100A9}|Linq-Class\\class_linq.csproj|solutionrelative:linq-class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A48161-65CA-8145-325F-5DF8520100A9}|Linq-Class\\class_linq.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\backend-ii\\linq\\linq-class\\customerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A48161-65CA-8145-325F-5DF8520100A9}|Linq-Class\\class_linq.csproj|solutionrelative:linq-class\\customerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A48161-65CA-8145-325F-5DF8520100A9}|Linq-Class\\class_linq.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\backend-ii\\linq\\linq-class\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A48161-65CA-8145-325F-5DF8520100A9}|Linq-Class\\class_linq.csproj|solutionrelative:linq-class\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\linq\\Linq-Class\\Order.cs",
+              "RelativeDocumentMoniker": "Linq-Class\\Order.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\linq\\Linq-Class\\Order.cs",
+              "RelativeToolTip": "Linq-Class\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T20:01:19.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerData.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\linq\\Linq-Class\\CustomerData.cs",
+              "RelativeDocumentMoniker": "Linq-Class\\CustomerData.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\linq\\Linq-Class\\CustomerData.cs",
+              "RelativeToolTip": "Linq-Class\\CustomerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:38:44.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\linq\\Linq-Class\\Program.cs",
+              "RelativeDocumentMoniker": "Linq-Class\\Program.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\linq\\Linq-Class\\Program.cs",
+              "RelativeToolTip": "Linq-Class\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:38:42.275Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
