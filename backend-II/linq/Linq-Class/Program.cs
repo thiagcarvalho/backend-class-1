@@ -28,16 +28,16 @@ public static class Program
             .OrderBy(c => c.Country)
             .GroupBy(c => c.Country);
 
-        //foreach (var country in groupedByCountry)
-        //{
-        //    Console.WriteLine($"Country: {country.Key}");
-        //    foreach (var customer in country)
-        //    {
-        //        Console.WriteLine($"{customer.FirstName} {customer.LastName}");
-        //    }
+        foreach (var country in groupedByCountry)
+        {
+            Console.WriteLine($"Country: {country.Key}");
+            foreach (var customer in country)
+            {
+                Console.WriteLine($"{customer.FirstName} {customer.LastName}");
+            }
 
-        //    Console.WriteLine();
-        //}
+            Console.WriteLine();
+        }
 
         Order[] orders = [
             new Order { Id = 1, CustomerId = 500, OrderDescription = "PS5", OrderDate = new DateTime(2024, 12, 25) },
@@ -59,7 +59,8 @@ public static class Program
                     order.OrderDescription,
                     order.OrderDate
                 }
-            );
+            )
+            .Where(x => x.OrderDate == new DateTime(2024, 12, 25));
 
         foreach(var item in joinResult)
         {
