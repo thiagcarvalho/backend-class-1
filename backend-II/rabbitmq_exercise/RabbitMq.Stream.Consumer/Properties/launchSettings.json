@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RabbitMq.Stream.Consumer": {
+      "commandName": "Project",
+      "commandLineArgs": "Tico"
+    }
+  }
+}
