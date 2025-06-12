@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8ABBE57-99B8-4410-BDC1-793E15F099F1}|rabbitmq_exercise\\rabbitmq_exercise.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\backend-ii\\rabbitmq_exercise\\rabbitmq_exercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ABBE57-99B8-4410-BDC1-793E15F099F1}|rabbitmq_exercise\\rabbitmq_exercise.csproj|solutionrelative:rabbitmq_exercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C6F7F-4FE5-4172-9359-B524389A7840}|RabbitMq.Stream.Consumer\\RabbitMq.Stream.Consumer.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\backend-ii\\rabbitmq_exercise\\rabbitmq.stream.consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C6F7F-4FE5-4172-9359-B524389A7840}|RabbitMq.Stream.Consumer\\RabbitMq.Stream.Consumer.csproj|solutionrelative:rabbitmq.stream.consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ABBE57-99B8-4410-BDC1-793E15F099F1}|rabbitmq_exercise\\rabbitmq_exercise.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\backend-ii\\rabbitmq_exercise\\rabbitmq_exercise\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ABBE57-99B8-4410-BDC1-793E15F099F1}|rabbitmq_exercise\\rabbitmq_exercise.csproj|solutionrelative:rabbitmq_exercise\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05D41365-834B-4B5A-8441-9C0E03708844}|RabbitMq.Stream.Producer\\RabbitMq.Stream.Producer.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\backend-ii\\rabbitmq_exercise\\rabbitmq.stream.producer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D41365-834B-4B5A-8441-9C0E03708844}|RabbitMq.Stream.Producer\\RabbitMq.Stream.Producer.csproj|solutionrelative:rabbitmq.stream.producer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8ABBE57-99B8-4410-BDC1-793E15F099F1}|rabbitmq_exercise\\rabbitmq_exercise.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\backend-ii\\rabbitmq_exercise\\rabbitmq_exercise\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8ABBE57-99B8-4410-BDC1-793E15F099F1}|rabbitmq_exercise\\rabbitmq_exercise.csproj|solutionrelative:rabbitmq_exercise\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C6F7F-4FE5-4172-9359-B524389A7840}|RabbitMq.Stream.Consumer\\RabbitMq.Stream.Consumer.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend\\aulas\\backend-ii\\rabbitmq_exercise\\rabbitmq.stream.consumer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F1C6F7F-4FE5-4172-9359-B524389A7840}|RabbitMq.Stream.Consumer\\RabbitMq.Stream.Consumer.csproj|solutionrelative:rabbitmq.stream.consumer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,40 +35,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Producer.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\rabbitmq_exercise\\Producer.cs",
-              "RelativeDocumentMoniker": "rabbitmq_exercise\\Producer.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\rabbitmq_exercise\\Producer.cs",
-              "RelativeToolTip": "rabbitmq_exercise\\Producer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T20:02:45.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Consumer.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\rabbitmq_exercise\\Consumer.cs",
-              "RelativeDocumentMoniker": "rabbitmq_exercise\\Consumer.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\rabbitmq_exercise\\Consumer.cs",
-              "RelativeToolTip": "rabbitmq_exercise\\Consumer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T19:53:40.208Z",
-              "EditorCaption": ""
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\RabbitMq.Stream.Consumer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RabbitMq.Stream.Consumer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\RabbitMq.Stream.Consumer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RabbitMq.Stream.Consumer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T20:04:10.16Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\rabbitmq_exercise\\Program.cs",
-              "RelativeDocumentMoniker": "rabbitmq_exercise\\Program.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\rabbitmq_exercise\\Program.cs",
-              "RelativeToolTip": "rabbitmq_exercise\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowCQAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\RabbitMq.Stream.Consumer\\Program.cs",
+              "RelativeDocumentMoniker": "RabbitMq.Stream.Consumer\\Program.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\RabbitMq.Stream.Consumer\\Program.cs",
+              "RelativeToolTip": "RabbitMq.Stream.Consumer\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T19:51:24.783Z",
+              "WhenOpened": "2025-06-04T19:50:32.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\RabbitMq.Stream.Producer\\Program.cs",
+              "RelativeDocumentMoniker": "RabbitMq.Stream.Producer\\Program.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend\\aulas\\backend-II\\rabbitmq_exercise\\RabbitMq.Stream.Producer\\Program.cs",
+              "RelativeToolTip": "RabbitMq.Stream.Producer\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:50:13.701Z",
               "EditorCaption": ""
             }
           ]

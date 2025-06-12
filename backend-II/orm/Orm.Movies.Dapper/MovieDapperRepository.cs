@@ -1,56 +1,64 @@
 ﻿using Dapper;
 using Orm.Movies.DataModels;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Orm.Movies.Dapper
 {
     public class MovieDapperRepository : IMovieRepository
     {
-        private readonly IDbConnection _dbConnection;
-        public MovieDapperRepository(IDbConnection dbConnection)
+        private readonly IDbConnection _connection;
+
+        public MovieDapperRepository(IDbConnection connection)
         {
-            _dbConnection = dbConnection;
+            _connection = connection;
         }
 
         public Guid Add(Movie movie)
         {
             movie.Id = Guid.NewGuid();
-            var sql = """INSERT INTO "Movies" ("Id", "Name", "Year") VALUES (@Id, @Name, @Year)""";
-            _dbConnection.Execute(sql, movie);
+
+            var sql = @"INSERT INTO ""Movies""(""Id"", ""Name"", ""Description"", ""Year"") 
+                        VALUES (@Id, @Name, @Description, @Year)";
+
+            _connection.Execute(sql, movie);
+
             return movie.Id.Value;
         }
 
         public bool Delete(Guid id)
         {
-            var sql = """DELETE FROM "Movies" WHERE "Id" = @Id""";
-            var result = _dbConnection.Execute(sql, new { Id = id });
-            return result == 1;
+            var sql = @"DELETE FROM ""Movies"" WHERE ""Id"" = @Id";
+
+            var rowsAffected = _connection.Execute(sql, new { Id = id });
+
+            return rowsAffected > 0;
         }
 
         public IEnumerable<Movie> GetAll()
         {
-            var sql = """SELECT * FROM "Movies" ORDER BY "Name" """;
-            var movies = _dbConnection.Query<Movie>(sql).ToList();
-            return movies;
+            var sql = @"SELECT * FROM ""Movies""";
+
+            return _connection.Query<Movie>(sql);
         }
 
         public Movie? GetById(Guid id)
         {
-            var sql = """SELECT * FROM "Movies" WHERE "Id" = @Id""";
-            var movie = _dbConnection.Query<Movie>(sql, new { Id = id }).FirstOrDefault();
-            return movie;
+            var sql = @"SELECT * FROM ""Movies"" WHERE ""Id"" = @Id";
+
+            return _connection.QueryFirstOrDefault<Movie>(sql, new { Id = id });
         }
 
         public bool Update(Movie movie)
         {
-            var sql = """UPDATE "Movies" SET "Name" = @Name, "Year" = @Year WHERE "Id" = @Id""";
-            var result = _dbConnection.Execute(sql, new {movie.Name, movie.Year, movie.Id });
-            return result == 1;
+            var sql = @"UPDATE ""Movies"" 
+                        SET ""Name"" = @Name, 
+                            ""Description"" = @Description,
+                            ""Year"" = @Year
+                        WHERE ""Id"" = @Id";
+
+            var rowsAffected = _connection.Execute(sql, movie);
+
+            return rowsAffected > 0;
         }
     }
 }

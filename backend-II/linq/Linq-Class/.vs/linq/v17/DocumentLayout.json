@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend-II\\link\\Link-Class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D88B1134-6565-44FA-BF0B-1DC766DA2CAE}|Link-Class\\Link-Class.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend-ii\\link\\link-class\\link-class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88B1134-6565-44FA-BF0B-1DC766DA2CAE}|Link-Class\\Link-Class.csproj|solutionrelative:link-class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88B1134-6565-44FA-BF0B-1DC766DA2CAE}|Link-Class\\class_linq.csproj|c:\\users\\thiago\\documents\\bootcamp\\backend-ii\\link\\link-class\\link-class\\customerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88B1134-6565-44FA-BF0B-1DC766DA2CAE}|Link-Class\\class_linq.csproj|solutionrelative:link-class\\customerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerData.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend-II\\link\\Link-Class\\Link-Class\\CustomerData.cs",
+              "RelativeDocumentMoniker": "Link-Class\\CustomerData.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend-II\\link\\Link-Class\\Link-Class\\CustomerData.cs",
+              "RelativeToolTip": "Link-Class\\CustomerData.cs",
+              "ViewState": "AgIAAKAMAAAAAAAAAAAAALYMAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:16:35.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend-II\\link\\Link-Class\\Link-Class\\Program.cs",
+              "RelativeDocumentMoniker": "Link-Class\\Program.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Documents\\bootcamp\\backend-II\\link\\Link-Class\\Link-Class\\Program.cs",
+              "RelativeToolTip": "Link-Class\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:50:56.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@Libraries.SignalR.Server_HostAddress = http://localhost:5023
+
+GET {{Libraries.SignalR.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

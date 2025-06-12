@@ -1,62 +1,59 @@
 ﻿using Orm.Movies.DataModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Orm.Movies.Ef
 {
     public class MovieEfRepository : IMovieRepository
     {
-        private readonly AppDbContext _appDbContext;
-        
-        public MovieEfRepository(AppDbContext appDbContext)
+        private readonly AppDbContext _dbContext;
+
+        public MovieEfRepository(AppDbContext dbContext)
         {
-            _appDbContext = appDbContext;
+            _dbContext = dbContext;
         }
+
         public Guid Add(Movie movie)
         {
             movie.Id = Guid.NewGuid();
-            _appDbContext.Movies.Add(movie);
-            _appDbContext.SaveChanges();
+
+            _dbContext.Add(movie);
+            _dbContext.SaveChanges();
+
             return movie.Id.Value;
         }
 
         public bool Delete(Guid id)
         {
-            var movie = _appDbContext.Movies.FirstOrDefault(m => m.Id == id);
-            if (movie == null)
-            {
-                return false;
+            var movie = _dbContext.Movies.FirstOrDefault(x => x.Id == id);
+
+            if (movie is not null) {
+                _dbContext.Movies.Remove(movie);
+                _dbContext.SaveChanges(true);
+                return true;
             }
-            _appDbContext.Movies.Remove(movie);
-            _appDbContext.SaveChanges();
-            return true;
+
+            return false;
         }
 
         public IEnumerable<Movie> GetAll()
         {
-            return _appDbContext.Movies.OrderBy(x => x.Name);
+            return _dbContext.Movies.OrderBy(x => x.Name);
         }
 
         public Movie? GetById(Guid id)
         {
-            return _appDbContext.Movies.FirstOrDefault(m => m.Id == id);
+            return _dbContext.Movies.FirstOrDefault(x => x.Id == id);
         }
 
         public bool Update(Movie movie)
         {
-            var existingMovie = _appDbContext.Movies.FirstOrDefault(m => m.Id == movie.Id);
-            if (existingMovie == null)
+            if (_dbContext.Movies.Any(x => x.Id == movie.Id))
             {
-                return false;
+                _dbContext.Movies.Update(movie);
+                _dbContext.SaveChanges(true);
+                return true;
             }
-            existingMovie.Name = movie.Name;
-            existingMovie.Year = movie.Year;
-            _appDbContext.Movies.Update(existingMovie);
-            _appDbContext.SaveChanges();
-            return true;
+
+            return false;
         }
     }
 }
