@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bogus", "Bogus", "{E5BE1A45
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries.Bogus", "Bogus\Libraries.Bogus\Libraries.Bogus.csproj", "{65DD6183-1FFA-42B0-946E-C7DAA9D37D1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagePack", "MessagePack", "{66F93BA9-9D19-4720-9F97-34D12255E637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries.MessagePack", "MessagePack\Libraries.MessagePack\Libraries.MessagePack.csproj", "{C7BE8B2A-3A89-45A3-814B-9A8039B6B180}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{65DD6183-1FFA-42B0-946E-C7DAA9D37D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65DD6183-1FFA-42B0-946E-C7DAA9D37D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65DD6183-1FFA-42B0-946E-C7DAA9D37D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7BE8B2A-3A89-45A3-814B-9A8039B6B180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BE8B2A-3A89-45A3-814B-9A8039B6B180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BE8B2A-3A89-45A3-814B-9A8039B6B180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BE8B2A-3A89-45A3-814B-9A8039B6B180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{858137D6-46BF-4A52-B385-A69D006812E8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{98CA5410-8F10-4D54-B684-AB76A8295550} = {498EBD63-D0E5-4787-AEAC-BBD99A252992}
 		{65DD6183-1FFA-42B0-946E-C7DAA9D37D1D} = {E5BE1A45-F461-4FB2-8999-E1E3DB18AA53}
+		{C7BE8B2A-3A89-45A3-814B-9A8039B6B180} = {66F93BA9-9D19-4720-9F97-34D12255E637}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E824A7B1-F7DF-4F24-82EF-C3BF6C241ECA}
